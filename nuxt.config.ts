@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   components: true,
   css: ['@/assets/css/styles.css'],
   app: {
-    baseURL: '/Mod7-CloudLab-v2/'
+    baseURL: '/nuxt-app/'
   },
   nitro: {
     preset: 'static'
