@@ -4,5 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@pinia/nuxt'],
   components: true,
-  css: ['@/assets/css/styles.css']
+  css: ['@/assets/css/styles.css'],
+  app: {
+    baseURL: '/nuxt-app/'
+  },
+  ssr: true, 
+  nitro: {
+    preset: 'static'
+  }
 })
